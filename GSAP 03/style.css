@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(154, 91, 91);
+  padding: 0 50px;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(138, 138, 209);
+}
+#nav {
+  height: 80px;
+  width: 100%;
+  background-color: pink;
+  border-bottom: 2px solid #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#nav h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#nav h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}

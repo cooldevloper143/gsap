@@ -41,5 +41,25 @@ body {
 #nav h4 {
   text-transform: uppercase;
   font-weight: 500;
-  
+}
+#container {
+  height: 80%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+#left {
+  height: 80%;
+  width: 50%;
+  background-color: aqua;
+}
+#right {
+  height: 80%;
+  width: 50%;
+  background-color: aliceblue;
+}
+#left h1{
+    text-transform: uppercase;
 }

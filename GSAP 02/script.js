@@ -18,3 +18,5 @@ gsap.from("#page2 #box2", {
     scrub:3,  //0 to 5 gives smoothness 
   },
 });
+
+
